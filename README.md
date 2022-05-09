@@ -1,3 +1,6 @@
 # Filmmuseum_AR
 
-yeah!
+## Requirements
+
+- Unity ver ???
+- vuforia

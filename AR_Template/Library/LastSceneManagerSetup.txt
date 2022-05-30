@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/AR_Base.unity
+- path: Assets/Scenes/AR_Prototype.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -8,8 +8,14 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    Vuforia.Unity.Editor.dll:
-    - Vuforia.EditorClasses.VuforiaConfigurationEditor
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
     Vuforia.Unity.Engine.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
@@ -19,7 +25,7 @@ ScriptsOnlyBuild:
     - DefaultInitializationErrorHandler
     - DefaultObserverEventHandler
   sceneClasses:
-    Assets/Scenes/AR_Base.unity:
+    Assets/Scenes/AR_Prototype.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -38,18 +44,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 74
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
       Script: {instanceID: 16802}
+    - Class: 114
+      Script: {instanceID: 17196}
+    - Class: 114
+      Script: {instanceID: 17490}
+    - Class: 114
+      Script: {instanceID: 17644}
     - Class: 114
       Script: {instanceID: 17676}
     - Class: 114
@@ -61,12 +79,28 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17806}
     - Class: 114
+      Script: {instanceID: 17920}
+    - Class: 114
       Script: {instanceID: 17954}
+    - Class: 114
+      Script: {instanceID: 18220}
+    - Class: 114
+      Script: {instanceID: 18306}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -539,7 +573,7 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
-      Hash: aefc8417bc5855c36ddcc4f9813c760a
+      Hash: ddce76d2eba9555920e4b0c59754dbf4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CountObjects
@@ -1997,5 +2031,5 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   platform: 13
   scenePathNames:
-  - Assets/Scenes/AR_Base.unity
+  - Assets/Scenes/AR_Prototype.unity
   playerPath: C:/Users/denis/Documents/GitHub/Filmmuseum_AR/AR_Template/Test

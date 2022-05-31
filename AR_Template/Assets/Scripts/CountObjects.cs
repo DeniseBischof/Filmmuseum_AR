@@ -14,7 +14,7 @@ public class CountObjects : MonoBehaviour
 
     public GameObject ClueText;
 
-    public bool itemFound = false;
+    private bool itemFound = false;
 
     // Start is called before the first frame update
     void Start()
@@ -68,9 +68,14 @@ public class CountObjects : MonoBehaviour
         }
     }
 
-    public void ChangeItemBool()
+    public void ItemBoolTrue()
     {
-        itemFound = !itemFound;
+        itemFound = true;
+    }
+
+    public void ItemBoolFalse()
+    {
+        itemFound = false;
     }
 }
 

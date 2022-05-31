@@ -6,7 +6,15 @@ public class CountObjects : MonoBehaviour
 {
 
     public GameObject TargetFound;
-    public GameObject TurnOnTarget;
+    public GameObject TurnOnNextImageTarget;
+    public GameObject[] ObjectsToTurnOn;
+
+    public GameObject ButtonBig;
+    public GameObject ButtonSmall;
+
+    public GameObject ClueText;
+
+    public bool itemFound = false;
 
     // Start is called before the first frame update
     void Start()
@@ -20,12 +28,50 @@ public class CountObjects : MonoBehaviour
 
     }
 
-    public void TurnOnNextObject()
+    public void TurnOnNextImageMarker()
     {
         if (TargetFound.activeSelf)
         {
-            TurnOnTarget.SetActive(true);
+            TurnOnNextImageTarget.SetActive(true);
         }
 
     }
+
+    // called by Unity when the game starts
+    public void TurnOnObjects()
+    {
+        foreach (GameObject obj in ObjectsToTurnOn)
+        {
+            obj.SetActive(true);
+        }
+    }
+
+    public void TurnOffObjects()
+    {
+        foreach (GameObject obj in ObjectsToTurnOn)
+        {
+            obj.SetActive(false);
+        }
+    }
+
+    public void ShowClue()
+    {
+        if (!itemFound)
+        {
+            ClueText.SetActive(true);
+        }
+        else
+        {
+            TurnOffObjects();
+            ButtonBig.SetActive(false);
+            ButtonSmall.SetActive(true);
+        }
+    }
+
+    public void ChangeItemBool()
+    {
+        itemFound = !itemFound;
+    }
 }
+
+

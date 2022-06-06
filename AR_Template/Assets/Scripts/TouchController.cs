@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class TouchController : MonoBehaviour
 {
-    private bool isMoveing = false;
+    private bool isMoving = false;
     private float hitDisstance = 0.0f;
 
-    public string moveTarget = "submarine_merged_adapted";
+    public string moveToTarget = "submarine_merged_adapted";
 
-    public GameObject Jezuus;
+    public GameObject nextBodyPart;
+    public GameObject sparkleParticles;
+
+    public GameObject changeMaterial;
+    public Material New_Material;
+
+    private Animation anim;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = gameObject.GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -29,7 +35,7 @@ public class TouchController : MonoBehaviour
             RaycastHit hit;
             RaycastHit[] targetHits;
   
-            if(isMoveing)
+            if(isMoving)
             {
                 Vector3 targetPosition = ray.direction * hitDisstance + ray.origin;
 
@@ -43,10 +49,15 @@ public class TouchController : MonoBehaviour
                     Debug.Log(targetHit.collider.name);
                     Debug.Log(targetHit.transform.name);
 
-                    if(targetHit.transform.name == moveTarget)
+                    if(targetHit.transform.name == moveToTarget)
                     {
-                        gameObject.SetActive(false);
-                        Jezuus.SetActive(true);
+                        //gameObject.SetActive(false);
+
+                        sparkleParticles.SetActive(true);
+                        nextBodyPart.SetActive(true);
+                        changeMaterial.GetComponent<MeshRenderer>().material = New_Material;
+
+                        anim.Play("turnInvisible");
                     }
                 }
             }
@@ -55,10 +66,15 @@ public class TouchController : MonoBehaviour
                 Physics.Raycast(ray.origin, ray.direction, out hit);
                 if (hit.transform != null)
                 {
-                    isMoveing = true;
+                    isMoving = true;
                     hitDisstance = hit.distance;
                 }
             }
         }
+    }
+
+    public void DestroyThisObject()
+    {
+        Destroy(gameObject);
     }
 }

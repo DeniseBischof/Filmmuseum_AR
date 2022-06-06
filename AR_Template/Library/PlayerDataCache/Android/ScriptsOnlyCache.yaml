@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CountObjects
+    - TouchController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -59,33 +60,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16684}
+      Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 16802}
+      Script: {instanceID: 1558}
     - Class: 114
-      Script: {instanceID: 17196}
+      Script: {instanceID: 1680}
     - Class: 114
-      Script: {instanceID: 17490}
+      Script: {instanceID: 2092}
     - Class: 114
-      Script: {instanceID: 17644}
+      Script: {instanceID: 2392}
     - Class: 114
-      Script: {instanceID: 17676}
+      Script: {instanceID: 2550}
     - Class: 114
-      Script: {instanceID: 17740}
+      Script: {instanceID: 2584}
     - Class: 114
-      Script: {instanceID: 17790}
+      Script: {instanceID: 2654}
     - Class: 114
-      Script: {instanceID: 17804}
+      Script: {instanceID: 2704}
     - Class: 114
-      Script: {instanceID: 17806}
+      Script: {instanceID: 2718}
     - Class: 114
-      Script: {instanceID: 17920}
+      Script: {instanceID: 2720}
     - Class: 114
-      Script: {instanceID: 17954}
+      Script: {instanceID: 2868}
     - Class: 114
-      Script: {instanceID: 18220}
+      Script: {instanceID: 3136}
     - Class: 114
-      Script: {instanceID: 18306}
+      Script: {instanceID: 3224}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -103,6 +104,18 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: ed9f9ba4f86811683bd63e5cc6dae905
+    assemblyName: Vuforia.Unity.Engine.dll
+    namespaceName: Vuforia
+    className: AnchorBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -175,6 +188,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: ec31135aab141d6ab21b4f509e89373f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TouchController
   - hash:
       serializedVersion: 2
       Hash: 300fd99066f8c288e85f5e81ce65fe34
@@ -259,12 +278,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
-  - hash:
-      serializedVersion: 2
-      Hash: ed9f9ba4f86811683bd63e5cc6dae905
-    assemblyName: Vuforia.Unity.Engine.dll
-    namespaceName: Vuforia
-    className: AnchorBehaviour
   - hash:
       serializedVersion: 2
       Hash: 72095f3bdca6a5ced808052624115e3b
@@ -559,12 +572,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b

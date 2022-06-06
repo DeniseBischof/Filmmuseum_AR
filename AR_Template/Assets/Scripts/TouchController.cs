@@ -9,6 +9,8 @@ public class TouchController : MonoBehaviour
 
     public string moveTarget = "submarine_merged_adapted";
 
+    public GameObject Jezuus;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class TouchController : MonoBehaviour
     void Update()
     {
         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary)
-         {
+            {
             Vector2 touchPosition = Input.GetTouch(0).position;
 
             Ray ray = Camera.main.ScreenPointToRay(new Vector3(touchPosition.x, touchPosition.y, 0f));
@@ -30,7 +32,9 @@ public class TouchController : MonoBehaviour
             if(isMoveing)
             {
                 Vector3 targetPosition = ray.direction * hitDisstance + ray.origin;
-                transform.position = targetPosition;
+
+                //transform.position = targetPosition;
+                transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * 10);
 
                 targetHits = Physics.RaycastAll(ray);
 
@@ -42,6 +46,7 @@ public class TouchController : MonoBehaviour
                     if(targetHit.transform.name == moveTarget)
                     {
                         gameObject.SetActive(false);
+                        Jezuus.SetActive(true);
                     }
                 }
             }

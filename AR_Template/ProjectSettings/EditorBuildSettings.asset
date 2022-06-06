@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR_Prototype.unity
     guid: 277cada8d94f5af449049f88ee3a9293
+  - enabled: 1
+    path: Assets/Scenes/BuildTester.unity
+    guid: 9fb1de6a1b2e04343b736173dcb638c0
   m_configObjects: {}

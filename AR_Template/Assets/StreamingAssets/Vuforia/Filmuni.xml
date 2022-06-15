@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="UBoot_contrast" size="1.000000 0.560347" />
+    <ImageTarget name="Test_UBoot" size="1.000000 0.572325" />
+    <ImageTarget name="RiesenRad_full" size="1.000000 0.686063" />
+  </Tracking>
+</QCARConfig>

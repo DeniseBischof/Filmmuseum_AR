@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 24425 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 48829 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,66 +11,1452 @@ C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/denis/Documents/GitHub/Filmmuseum_AR/AR_Template
+C:/Users/denis/Desktop/Filmmuseum_AR/AR_Template
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56340
-Successfully changed project path to: C:/Users/denis/Documents/GitHub/Filmmuseum_AR/AR_Template
-C:/Users/denis/Documents/GitHub/Filmmuseum_AR/AR_Template
+55423
+Successfully changed project path to: C:/Users/denis/Desktop/Filmmuseum_AR/AR_Template
+C:/Users/denis/Desktop/Filmmuseum_AR/AR_Template
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 162.86 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 8.08 ms.
+Refreshing native plugins compatible for Editor in 61.31 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 2.98 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/denis/Documents/GitHub/Filmmuseum_AR/AR_Template/Assets
+[Subsystems] Discovering subsystems at path C:/Users/denis/Desktop/Filmmuseum_AR/AR_Template/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
     Vendor:   
-    VRAM:     5991 MB
-    Driver:   27.21.14.5763
+    VRAM:     8088 MB
+    Driver:   30.0.15.1295
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.479786 seconds.
+Registered in 0.001854 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 161.37 ms, found 5 plugins.
-Preloading 2 native plugins for Editor in 0.28 ms.
+Refreshing native plugins compatible for Editor in 53.21 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  8.058 seconds
+- Completed reload, in  0.573 seconds
 Domain Reload Profiling:
-	ReloadAssembly (8058ms)
-		BeginReloadAssembly (4740ms)
+	ReloadAssembly (573ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (2410ms)
-			LoadAssemblies (4742ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1385ms)
+			SetupTypeCache (145ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (539ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (162ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.386187 seconds.
+Registered in 0.009241 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021F77204DA0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77204DA0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77914630 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77A1DCA0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F6DDBB120 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaEditorScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F779DA220 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F76C80080 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77929840 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F76C80080 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77929840 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7816B200 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77204DA0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F775E2020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77204DA0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F76CA8690 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F72CC7C60 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (999ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (793ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 1575 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.6 MB.
+System memory in use after: 75.7 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2297.
+Total: 3.125900 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.092000 ms MarkObjects: 2.756800 ms  DeleteObjects: 0.077600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/3D/Textures/220528_Gears_Texture.tif
+  artifactKey: Guid(34ec715c0ae66b74c85d8bcef46aaa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220528_Gears_Texture.tif using Guid(34ec715c0ae66b74c85d8bcef46aaa6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ee0c18159c8206a7845b66cfb49b78') in 0.068959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/3D/vent_combined.fbx
+  artifactKey: Guid(93e024c93ce5db24281ae5f46de638f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/vent_combined.fbx using Guid(93e024c93ce5db24281ae5f46de638f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91cb6bd856617433ef3c0daf7d50505f') in 0.341119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/3D/Textures/220528_Submarine_Texture.tif
+  artifactKey: Guid(9e1dacbe0b4f58342aef3f6fcc8f6c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220528_Submarine_Texture.tif using Guid(9e1dacbe0b4f58342aef3f6fcc8f6c87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8318fa2627f5ce8fbf3417b6831910') in 0.009692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3D/Textures/220612_Vent_Normal.tif
+  artifactKey: Guid(08537c980561f9245ae5c12d51b9b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220612_Vent_Normal.tif using Guid(08537c980561f9245ae5c12d51b9b1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f042afb55df462d80abce5e9af60ae') in 0.016282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/3D
+  artifactKey: Guid(9d6f2122be3e1c44c86de6e8c162043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D using Guid(9d6f2122be3e1c44c86de6e8c162043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711ee80e564c42eac50722cf4d0ea1f9') in 0.002833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000782 seconds.
+  path: Assets/3D/Textures/220612_Submarine_Normal.tif
+  artifactKey: Guid(ee837ec6d98a3cc4d9da1af122578e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220612_Submarine_Normal.tif using Guid(ee837ec6d98a3cc4d9da1af122578e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f42b08bf008dad4a80f4dafa6e75832') in 0.011919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/3D/Textures/220527_FerriesWheel_Texture.tif
+  artifactKey: Guid(5cf0b6768e2e53244bc5d95ff6861525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220527_FerriesWheel_Texture.tif using Guid(5cf0b6768e2e53244bc5d95ff6861525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0083cfd4453cd2e4cc1215f9cb6ceefd') in 0.011521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/3D/ferriesWheel_combined.fbx
+  artifactKey: Guid(33abd233a455a364ebc9d98e5283a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/ferriesWheel_combined.fbx using Guid(33abd233a455a364ebc9d98e5283a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadcfec48a498ab1051670069b732d53') in 0.055537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/3D/Textures/220612_PlasticBottle_Normal.tif
+  artifactKey: Guid(ec1bee3af67ef544d8e9aaa6f9da2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220612_PlasticBottle_Normal.tif using Guid(ec1bee3af67ef544d8e9aaa6f9da2b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b294e07edcb3df0503b1999573e9e8') in 0.011185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/3D/Textures/220612_Gears_Normal.tif
+  artifactKey: Guid(44890ff58805ac34c876682b5a3c09db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220612_Gears_Normal.tif using Guid(44890ff58805ac34c876682b5a3c09db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81b365e590f95e3e5c49c3a40c2ef18') in 0.014352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/3D/Textures/220531_PlasticBottle_Texture.tif
+  artifactKey: Guid(ce34382a72773d842850fc44a9a3b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220531_PlasticBottle_Texture.tif using Guid(ce34382a72773d842850fc44a9a3b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5f1a92925e7e0f25be11a7de03030d') in 0.011650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/3D/Textures/220612_Fishtail_Texture.tif
+  artifactKey: Guid(d17928c3b9d957445a1637d1d56c2eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220612_Fishtail_Texture.tif using Guid(d17928c3b9d957445a1637d1d56c2eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d06a704779fcee82b8fa681d4e0fbe') in 0.010996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/3D/Textures/220612_FerriesWheel_Normal.tif
+  artifactKey: Guid(532d261cfcf515e419e6972baab4bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220612_FerriesWheel_Normal.tif using Guid(532d261cfcf515e419e6972baab4bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ff7e40498dfe6ebac0f8576a9795d5') in 0.011718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/3D/fishtail_combined.fbx
+  artifactKey: Guid(b467fcff215157942837d8be6a82b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/fishtail_combined.fbx using Guid(b467fcff215157942837d8be6a82b0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ffdc5f005d153b045904935ea3fc1ee') in 0.029108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/3D/Textures
+  artifactKey: Guid(12a92b53c6fb36a48911fc8574167870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures using Guid(12a92b53c6fb36a48911fc8574167870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3220bd54547e1be7e39980f28e7310a0') in 0.003152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/3D/Textures/220612_Fishtail_Normal.tif
+  artifactKey: Guid(10024ced60ce6384caf81645155b8561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220612_Fishtail_Normal.tif using Guid(10024ced60ce6384caf81645155b8561) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '420b5a72cf2ecc97a16d4afbfff87e87') in 0.012874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/3D/Textures/220531_Vent_Texture_Adapted.tif
+  artifactKey: Guid(f96b2abe62dea6244b21b2886e2fd8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/220531_Vent_Texture_Adapted.tif using Guid(f96b2abe62dea6244b21b2886e2fd8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6146ba7ea8b651b32f9f4f3bbf646d2') in 0.011502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/3D/subway_combined.fbx
+  artifactKey: Guid(f2f27d5671139b34eae660494169df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/subway_combined.fbx using Guid(f2f27d5671139b34eae660494169df65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62056c8a9192de0169930930437accc9') in 0.031355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.003808 seconds.
+  path: Assets/3D/submarineTex.mat
+  artifactKey: Guid(b36234ea2eba5444bb1c1bb9477974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/submarineTex.mat using Guid(b36234ea2eba5444bb1c1bb9477974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89490a96656187f2f29c950aaac91a9b') in 0.021624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.219896 seconds.
+  path: Assets/3D/fishtail_Text.mat
+  artifactKey: Guid(f8033e7a7c8202740a748900f43b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/fishtail_Text.mat using Guid(f8033e7a7c8202740a748900f43b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cc874402b6fb2d16fd2ad75e4b74e3') in 0.014972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.943215 seconds.
+  path: Assets/3D/vent_Tex.mat
+  artifactKey: Guid(fb42aa880ff2fec4fa1474958d609927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/vent_Tex.mat using Guid(fb42aa880ff2fec4fa1474958d609927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574e83bea55f97e7eb6730faab1346e4') in 0.021270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.271001 seconds.
+  path: Assets/3D/ferrisWheel_Tex.mat
+  artifactKey: Guid(11fa411903917e948be1929ce84c2711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/ferrisWheel_Tex.mat using Guid(11fa411903917e948be1929ce84c2711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef1c9587f3f3e1f1b0f4c3021e7d710') in 0.019778 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011006 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021F735F51B0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F44822760 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7CC54020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7CAABC90 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7CCD07D0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaEditorScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B56D8C0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7A784420 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7CC54020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7794F010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F734C6CD0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7362E020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77204DA0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7743E020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F735F51B0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77A043E0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77123020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.7 MB.
+System memory in use after: 77.8 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 3.087500 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.078800 ms MarkObjects: 2.779900 ms  DeleteObjects: 0.030200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008384 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021F734CD8E0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA0028060 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B10F020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B10F020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F9FF3B0F0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaEditorScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F78D08030 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F76C80080 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F78D08030 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7360E010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F78D08030 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7AEFF020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B5A9E60 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7758E020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7A758E30 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7BCAB010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7AB49ED0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (803ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (315ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.8 MB.
+System memory in use after: 77.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 3.018600 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.045900 ms MarkObjects: 2.747700 ms  DeleteObjects: 0.028200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 630.168906 seconds.
+  path: Assets/Icons
+  artifactKey: Guid(9fd6ae00ee61d2a4fbcd7d96b0663730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons using Guid(9fd6ae00ee61d2a4fbcd7d96b0663730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec81b9cf64a61dde84fafd941aea2ba') in 0.008442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.077179 seconds.
+  path: Assets/3D/ferrisWheel_Tex.mat
+  artifactKey: Guid(11fa411903917e948be1929ce84c2711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/ferrisWheel_Tex.mat using Guid(11fa411903917e948be1929ce84c2711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463b58a71e6a55f44326d131749974ef') in 0.075821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3D/submarineTex.mat
+  artifactKey: Guid(b36234ea2eba5444bb1c1bb9477974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/submarineTex.mat using Guid(b36234ea2eba5444bb1c1bb9477974d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041ec902a941e92ce22e4f89dbf11a9d') in 0.016742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3D/vent_Tex.mat
+  artifactKey: Guid(fb42aa880ff2fec4fa1474958d609927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/vent_Tex.mat using Guid(fb42aa880ff2fec4fa1474958d609927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c77f8e9922d7166d638f40a3a61fe1') in 0.019064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/3D/fishtail_Text.mat
+  artifactKey: Guid(f8033e7a7c8202740a748900f43b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/fishtail_Text.mat using Guid(f8033e7a7c8202740a748900f43b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a0a7a8fa832b03d744e2a9a1118a9f') in 0.015721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.045012 seconds.
+  path: Assets/Icons/Flasche_Icon.png
+  artifactKey: Guid(b92c20ccf10456c4e9a7fb7dc9fa74fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Flasche_Icon.png using Guid(b92c20ccf10456c4e9a7fb7dc9fa74fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229dc955e02de38274cdfea6b0bc579e') in 0.019195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Icons/UbootIcon.png
+  artifactKey: Guid(d31a701e093206540a9d8ee4f31db40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/UbootIcon.png using Guid(d31a701e093206540a9d8ee4f31db40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4501f4711c8fa67a1d0e1fce48dcf1') in 0.010656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Icons/Meerjungfrau_Icon.png
+  artifactKey: Guid(8290d19f0a2bbdb478a71f73c7a3bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Meerjungfrau_Icon.png using Guid(8290d19f0a2bbdb478a71f73c7a3bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d58d4d74490c4f8d1e885c964ba28a') in 0.011183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Icons/Meerjungfrau2.png
+  artifactKey: Guid(1be566c31f0c14f4ab5376296c13ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Meerjungfrau2.png using Guid(1be566c31f0c14f4ab5376296c13ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfa735e7a50a684bc9fda10c02b0aae') in 0.015223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Icons/Riesenrad_Icon.png
+  artifactKey: Guid(c8a3e108a8bc45346bd4c5fa357a3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Riesenrad_Icon.png using Guid(c8a3e108a8bc45346bd4c5fa357a3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af80d60a47777f506eed58c742107f7f') in 0.011467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Icons/Uboot_Icon3.png
+  artifactKey: Guid(1b46d624204e40249ac5b1f703601fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Uboot_Icon3.png using Guid(1b46d624204e40249ac5b1f703601fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f95c5a7214c3880a189e63fc9e9ffce') in 0.014446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Icons/RohrIcon2.png
+  artifactKey: Guid(85928241fce5d434ebf6a0db21f42ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/RohrIcon2.png using Guid(85928241fce5d434ebf6a0db21f42ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92cc29f01f5c126e36155aaaa94b72b') in 0.012070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Icons/Flasche_Icon2.png
+  artifactKey: Guid(6373fc80690c3fe4a86da5b0ee830f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Flasche_Icon2.png using Guid(6373fc80690c3fe4a86da5b0ee830f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8d4b9cfe3281d0972804ba00995a28') in 0.009813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Icons/Roh_Icon.png
+  artifactKey: Guid(74a7b656a9a2f59498a3a6b8d20300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Roh_Icon.png using Guid(74a7b656a9a2f59498a3a6b8d20300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88051bade30120ccddeee2d7093f7f29') in 0.009822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Icons/UbootIcon2.png
+  artifactKey: Guid(9c5f9b9a2d6f1f741a1997a2be845870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/UbootIcon2.png using Guid(9c5f9b9a2d6f1f741a1997a2be845870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d63865df4764d1d86776b25ee07d3c6') in 0.008758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.746264 seconds.
+  path: Assets/Icons/Flasche_Icon.png
+  artifactKey: Guid(b92c20ccf10456c4e9a7fb7dc9fa74fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Flasche_Icon.png using Guid(b92c20ccf10456c4e9a7fb7dc9fa74fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e0e57cdf9d04322937ca952729f960') in 0.044565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Icons/UbootIcon.png
+  artifactKey: Guid(d31a701e093206540a9d8ee4f31db40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/UbootIcon.png using Guid(d31a701e093206540a9d8ee4f31db40a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5524303e364d8c186751fb733337d1') in 0.031444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Icons/Meerjungfrau_Icon.png
+  artifactKey: Guid(8290d19f0a2bbdb478a71f73c7a3bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Meerjungfrau_Icon.png using Guid(8290d19f0a2bbdb478a71f73c7a3bef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b9ca25db5fc1d22ec1ecd737d2a8fd') in 0.015952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Icons/Meerjungfrau2.png
+  artifactKey: Guid(1be566c31f0c14f4ab5376296c13ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Meerjungfrau2.png using Guid(1be566c31f0c14f4ab5376296c13ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f3b359292f88bb7b03b3f701cf7b92') in 0.022211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Icons/Riesenrad_Icon.png
+  artifactKey: Guid(c8a3e108a8bc45346bd4c5fa357a3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Riesenrad_Icon.png using Guid(c8a3e108a8bc45346bd4c5fa357a3377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7716be1bf908dc282e63666d714ef50') in 0.025301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Icons/Uboot_Icon3.png
+  artifactKey: Guid(1b46d624204e40249ac5b1f703601fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Uboot_Icon3.png using Guid(1b46d624204e40249ac5b1f703601fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39362be17dcdc294f12f0403f04a8f9a') in 0.040371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Icons/RohrIcon2.png
+  artifactKey: Guid(85928241fce5d434ebf6a0db21f42ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/RohrIcon2.png using Guid(85928241fce5d434ebf6a0db21f42ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7ddaf87fd3b9f00f656e0be500f0e8') in 0.022363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Icons/Flasche_Icon2.png
+  artifactKey: Guid(6373fc80690c3fe4a86da5b0ee830f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Flasche_Icon2.png using Guid(6373fc80690c3fe4a86da5b0ee830f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58794adbdfafe71955385dfee96abae0') in 0.023104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Icons/Roh_Icon.png
+  artifactKey: Guid(74a7b656a9a2f59498a3a6b8d20300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Roh_Icon.png using Guid(74a7b656a9a2f59498a3a6b8d20300a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18b27a53753bb00b79e12a16fcdf5f6') in 0.021834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Icons/UbootIcon2.png
+  artifactKey: Guid(9c5f9b9a2d6f1f741a1997a2be845870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/UbootIcon2.png using Guid(9c5f9b9a2d6f1f741a1997a2be845870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5284081b56f68ca3b1f50b295fa58b0a') in 0.014351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.386613 seconds.
+  path: Assets/Icons/Searching
+  artifactKey: Guid(a0b31232f83872948a89269bd302c62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching using Guid(a0b31232f83872948a89269bd302c62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62149b5c6fab45e40d5f1a7621153d11') in 0.003425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063071 seconds.
+  path: Assets/Icons/Searching/Fisch.png
+  artifactKey: Guid(7d9fe5951540bd34e99660ec6d4f7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Fisch.png using Guid(7d9fe5951540bd34e99660ec6d4f7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c7bd4c1e00f28dfa1452dd63f7cb0a') in 0.011830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Icons/Searching/Uboot.png
+  artifactKey: Guid(beb56f437e340bc4e84b8424bf5578af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Uboot.png using Guid(beb56f437e340bc4e84b8424bf5578af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc82557655c590eb163d4647cb63b5bd') in 0.009522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Icons/Searching/Riesenrad.png
+  artifactKey: Guid(d809f99c45333ab4686de2376d9a3c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Riesenrad.png using Guid(d809f99c45333ab4686de2376d9a3c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e3ee23d1c91e5cb44828dd180f4623') in 0.009987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Icons/Searching/Flasche.png
+  artifactKey: Guid(f12ecef079624e54283692a2441d9372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Flasche.png using Guid(f12ecef079624e54283692a2441d9372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e3ed320a8e6316c901226fcdf174fe4') in 0.009819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Icons/Searching/Rohr.png
+  artifactKey: Guid(87e43aae84a53c549b2fb161a319bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Rohr.png using Guid(87e43aae84a53c549b2fb161a319bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bdaefc8220d7a087ad2b7fbecccaa8') in 0.009652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Icons/Searching/Zahnraeder.png
+  artifactKey: Guid(cb00eaf25dba992459604d4c1b2b8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Zahnraeder.png using Guid(cb00eaf25dba992459604d4c1b2b8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acd8704bf1bbb6e1921decc3602e16f') in 0.009252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.253091 seconds.
+  path: Assets/Icons/Searching/Rohr.png
+  artifactKey: Guid(87e43aae84a53c549b2fb161a319bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Rohr.png using Guid(87e43aae84a53c549b2fb161a319bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62ba72fddcb3ca799849ab52b3020ce') in 0.015905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001682 seconds.
+  path: Assets/Icons/Searching/Fisch.png
+  artifactKey: Guid(7d9fe5951540bd34e99660ec6d4f7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Fisch.png using Guid(7d9fe5951540bd34e99660ec6d4f7dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b8c2f317ded6644424c29a6c318ce8') in 0.016513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Icons/Searching/Uboot.png
+  artifactKey: Guid(beb56f437e340bc4e84b8424bf5578af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Uboot.png using Guid(beb56f437e340bc4e84b8424bf5578af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b759bff03a66e4210738edcffe512fc9') in 0.014359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Icons/Searching/Riesenrad.png
+  artifactKey: Guid(d809f99c45333ab4686de2376d9a3c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Riesenrad.png using Guid(d809f99c45333ab4686de2376d9a3c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12398af202d925c06ba1d205d99a1273') in 0.016230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Icons/Searching/Flasche.png
+  artifactKey: Guid(f12ecef079624e54283692a2441d9372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Flasche.png using Guid(f12ecef079624e54283692a2441d9372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff89af928c98a7493ea329ba66d6c39') in 0.014670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Icons/Searching/Zahnraeder.png
+  artifactKey: Guid(cb00eaf25dba992459604d4c1b2b8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Searching/Zahnraeder.png using Guid(cb00eaf25dba992459604d4c1b2b8954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d821da866ed08c704895c6837a1717') in 0.016305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.435401 seconds.
+  path: Assets/Icons/Found
+  artifactKey: Guid(dd46aa9f4410ee2488ada8637848ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found using Guid(dd46aa9f4410ee2488ada8637848ac5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f401f812299bcf959d412dcfe6c8b4fe') in 0.004298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.655449 seconds.
+  path: Assets/Icons/Found/Fisch_Found.png
+  artifactKey: Guid(8e8054136f853754d91bd4103827c767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Fisch_Found.png using Guid(8e8054136f853754d91bd4103827c767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8e3977c2a6df8c5360cafc0ca60b90') in 0.009220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Icons/Found/Rohr_Found.png
+  artifactKey: Guid(e18d7bfac52570843b64ad70336b4bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Rohr_Found.png using Guid(e18d7bfac52570843b64ad70336b4bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c62405d9bf160053b2e1a9853b5df8') in 0.009474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Icons/Found/Zahnraeder_Found.png
+  artifactKey: Guid(cf5358f6748a08d41905a6242eaf6af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Zahnraeder_Found.png using Guid(cf5358f6748a08d41905a6242eaf6af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4180b614ad556989ddae0536a7abd1aa') in 0.009539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Icons/Found/Riesenrad_Found.png
+  artifactKey: Guid(61d66beb4686c954c8847b8a79b85884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Riesenrad_Found.png using Guid(61d66beb4686c954c8847b8a79b85884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d7cf3385f8dd227015f760bc98dbe7') in 0.009819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Icons/Found/Flasche_Found.png
+  artifactKey: Guid(981c1c2003abb434f9dec6e6b218bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Flasche_Found.png using Guid(981c1c2003abb434f9dec6e6b218bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1a08ce3ab1d2412cb8bf2d09b44f41') in 0.009662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Icons/Found/Uboot_Found.png
+  artifactKey: Guid(bf0cdba8af29c7340b68d13226367d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Uboot_Found.png using Guid(bf0cdba8af29c7340b68d13226367d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65612f2fb2c26a3b51bc1fe13a4083f1') in 0.010862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.384546 seconds.
+  path: Assets/Icons/Found/Fisch_Found.png
+  artifactKey: Guid(8e8054136f853754d91bd4103827c767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Fisch_Found.png using Guid(8e8054136f853754d91bd4103827c767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762819afcbbf3e8346fd59f5a75944a2') in 0.016913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Icons/Found/Rohr_Found.png
+  artifactKey: Guid(e18d7bfac52570843b64ad70336b4bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Rohr_Found.png using Guid(e18d7bfac52570843b64ad70336b4bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10e3ba2d6873d193487b4406138a48c') in 0.017924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Icons/Found/Zahnraeder_Found.png
+  artifactKey: Guid(cf5358f6748a08d41905a6242eaf6af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Zahnraeder_Found.png using Guid(cf5358f6748a08d41905a6242eaf6af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279eec9abd12533cff32d78ca61201ad') in 0.016620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Icons/Found/Riesenrad_Found.png
+  artifactKey: Guid(61d66beb4686c954c8847b8a79b85884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Riesenrad_Found.png using Guid(61d66beb4686c954c8847b8a79b85884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d08e2c1349000097664a2b34900b118') in 0.015099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Icons/Found/Flasche_Found.png
+  artifactKey: Guid(981c1c2003abb434f9dec6e6b218bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Flasche_Found.png using Guid(981c1c2003abb434f9dec6e6b218bfec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844730a4f99ce56bf41407448c855c22') in 0.018030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Icons/Found/Uboot_Found.png
+  artifactKey: Guid(bf0cdba8af29c7340b68d13226367d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Found/Uboot_Found.png using Guid(bf0cdba8af29c7340b68d13226367d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a7a962cc88829931c06225fae9e9ce') in 0.015893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 224.066781 seconds.
+  path: Assets/Scenes/AR_Prototype.unity
+  artifactKey: Guid(277cada8d94f5af449049f88ee3a9293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/AR_Prototype.unity using Guid(277cada8d94f5af449049f88ee3a9293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a023444b2533e59ce478293438f454') in 0.003913 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009090 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021F7355CFC0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7747B830 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77492020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7883F060 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F9FF31320 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaEditorScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C665F20 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7A200080 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F733ED020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA02D5020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F734C6CD0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C653B80 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7883F060 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77022020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7355CFC0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7BCAB010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA03AE200 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1161ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.8 MB.
+System memory in use after: 79.9 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 3.434100 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.052000 ms MarkObjects: 3.141400 ms  DeleteObjects: 0.034900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 958.875708 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Overlay_fish.controller
+  artifactKey: Guid(6c0989d3c2e2596419cb9895b64efa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Overlay_fish.controller using Guid(6c0989d3c2e2596419cb9895b64efa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc6d238f66feef4f51f2ab8ff5ce642') in 0.022509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.802596 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Overlay_Uboot.controller
+  artifactKey: Guid(bc128bcc24d0f6b45b0315445ad3677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Overlay_Uboot.controller using Guid(bc128bcc24d0f6b45b0315445ad3677f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e37287b8d03e9147e68fbaff0d6b179') in 0.005105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.184216 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Pulsating_Uboot.anim
+  artifactKey: Guid(6b1ee5a476556ec4097894cc2e3605c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Pulsating_Uboot.anim using Guid(6b1ee5a476556ec4097894cc2e3605c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3e0a7ed194a3591527cf386eab0784') in 0.006497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578761 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Pulsating.anim
+  artifactKey: Guid(04c19dafee955ae4d8d75e08f09eabd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Pulsating.anim using Guid(04c19dafee955ae4d8d75e08f09eabd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514b61cc498c548328d1f7bc10e77c5c') in 0.004253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.650791 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Overlay 1.controller
+  artifactKey: Guid(59667a50859e8d74e8e5190a12e79d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Overlay 1.controller using Guid(59667a50859e8d74e8e5190a12e79d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4f3b5d534aebf7a271adcaae953d60') in 0.005007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.716802 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Overlay_Zahnrad.controller
+  artifactKey: Guid(59667a50859e8d74e8e5190a12e79d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Overlay_Zahnrad.controller using Guid(59667a50859e8d74e8e5190a12e79d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8375d1b003a92b2548e22e303ffc3e') in 0.004403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.292807 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Pulsating 1.anim
+  artifactKey: Guid(69d58de32449a4c4088abae4264876ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Pulsating 1.anim using Guid(69d58de32449a4c4088abae4264876ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d05de84080f465142552b23e8f7ace') in 0.005057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.783956 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Pulsating_Zahnrad.anim
+  artifactKey: Guid(69d58de32449a4c4088abae4264876ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Pulsating_Zahnrad.anim using Guid(69d58de32449a4c4088abae4264876ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597197b48705f1909c08c4fc051f1b3a') in 0.004646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 346.214517 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Overlay 1.controller
+  artifactKey: Guid(6fc78fa40103eaa448ac5d56c26270f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Overlay 1.controller using Guid(6fc78fa40103eaa448ac5d56c26270f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ee9a44da892db2268dd8256eefe584') in 0.004523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.940707 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Overlay_Bottle.controller
+  artifactKey: Guid(6fc78fa40103eaa448ac5d56c26270f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Overlay_Bottle.controller using Guid(6fc78fa40103eaa448ac5d56c26270f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55ecb4cc4129c26710e8c4a63f310de') in 0.005076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.339999 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Pulsating 1.anim
+  artifactKey: Guid(59918b2d3da57294892c1ca6814a9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Pulsating 1.anim using Guid(59918b2d3da57294892c1ca6814a9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab00504b96c38de0409c3d250e7e02d8') in 0.004115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.488039 seconds.
+  path: Assets/Images/ButtonOverlay/Animations/Pulsating_Bottle.anim
+  artifactKey: Guid(59918b2d3da57294892c1ca6814a9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/ButtonOverlay/Animations/Pulsating_Bottle.anim using Guid(59918b2d3da57294892c1ca6814a9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e37153fcbf1780dd8f8371fe12c770') in 0.005375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.579185 seconds.
+  path: Assets/Models
+  artifactKey: Guid(872a48d5093556948a1ba94c253f581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(872a48d5093556948a1ba94c253f581b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13600d7f3e4328ac21952f084a4904cb') in 0.003848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.890551 seconds.
+  path: Assets/Models/combined
+  artifactKey: Guid(4573e1e1cc3368d4f953676514a108c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined using Guid(4573e1e1cc3368d4f953676514a108c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44cf637819539fa8766d70188b435b43') in 0.003479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047413 seconds.
+  path: Assets/Models/combined/ferriesWheel_combined_01.fbx
+  artifactKey: Guid(30fdb3a581d4f684494ba9816cf1c31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/ferriesWheel_combined_01.fbx using Guid(30fdb3a581d4f684494ba9816cf1c31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3632099e2890379a986b5722530c8d73') in 0.108572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Models/combined/gearWheels_combined_01.fbx
+  artifactKey: Guid(af6fc620674b11a47831bc1c7f03fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/gearWheels_combined_01.fbx using Guid(af6fc620674b11a47831bc1c7f03fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9971202795e8d8736c0b4d07d63b55ab') in 0.031045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Models/combined/submarine_combined_01.fbx
+  artifactKey: Guid(ad3cb77494191724da35233ce1993ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/submarine_combined_01.fbx using Guid(ad3cb77494191724da35233ce1993ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ca5be3726c1bfbbbfd439482114f5d') in 0.031428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Models/combined/fishtail_combined_01.fbx
+  artifactKey: Guid(38d2a6c08ddc9b84d8fa4ea34a878c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/fishtail_combined_01.fbx using Guid(38d2a6c08ddc9b84d8fa4ea34a878c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e12255a96139198821c04a10c37791') in 0.028873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Models/combined/vent_combined_01.fbx
+  artifactKey: Guid(bd2b02cb5a63c78459e731a3d60fa5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/vent_combined_01.fbx using Guid(bd2b02cb5a63c78459e731a3d60fa5a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6722abc7df2d0b239bef3e88bf607059') in 0.029025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Models/combined/plasticBottle_combined_01.fbx
+  artifactKey: Guid(c101779c56afd3e4e932990b3ee0ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/plasticBottle_combined_01.fbx using Guid(c101779c56afd3e4e932990b3ee0ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcbea95577ab742c8a408f9015d37d6') in 0.030821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.473364 seconds.
+  path: Assets/Models/combined/Bottle.mat
+  artifactKey: Guid(f3c563c7e67ebfe44b4007d868268932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/Bottle.mat using Guid(f3c563c7e67ebfe44b4007d868268932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9149b1081c48c9aa173c813eda514deb') in 0.010726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.084333 seconds.
+  path: Assets/Models/combined/Bottle.mat
+  artifactKey: Guid(f3c563c7e67ebfe44b4007d868268932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/combined/Bottle.mat using Guid(f3c563c7e67ebfe44b4007d868268932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1989b00eeadf846ff5d27e50c2871da4') in 0.011492 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009492 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021F7355CFC0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7747B830 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7CD05020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B1A7020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA0A35380 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaEditorScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C665F20 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F73194FB0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F781F6020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F73214010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B94A010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7BF885A0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B1A7020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F775E2020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7355CFC0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F77076020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F736E0950 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.16 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (959ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (337ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.18 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 80.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 3.902400 ms (FindLiveObjects: 0.199400 ms CreateObjectMapping: 0.050800 ms MarkObjects: 3.600400 ms  DeleteObjects: 0.050500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008368 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021FA00B2010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F73758050 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C6AB020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F785C1010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7AC9A170 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaEditorScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C665F20 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C9370F0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F76C92010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7352E020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B0AB040 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F737E9330 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B1A7020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F775E2020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA00B2010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7A7D8020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F78A04AD0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1218ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1015ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 80.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 3.543100 ms (FindLiveObjects: 0.212200 ms CreateObjectMapping: 0.052400 ms MarkObjects: 3.237200 ms  DeleteObjects: 0.039900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009101 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000021F7CE6F030 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C746B70 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7C6AB020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F785C1010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA0F08E90 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaEditorScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F78F3E030 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F73650CB0 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F76C92010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7352E020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F78F3E030 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F737E9330 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7B1A7020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F775E2020 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021F7CE6F030 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA0205010 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021FA0AB7680 doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\ScriptAssemblies\VuforiaScripts.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\denis\Desktop\Filmmuseum_AR\AR_Template\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <fa936954903d455ab607cdebc0675fa6>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <fa936954903d455ab607cdebc0675fa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (999ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.9 MB.
+System memory in use after: 80.0 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2384.
+Total: 3.756900 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.106700 ms MarkObjects: 3.297600 ms  DeleteObjects: 0.036500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1900.348415 seconds.
+  path: Assets/Scenes/BuildTester.unity
+  artifactKey: Guid(9fb1de6a1b2e04343b736173dcb638c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BuildTester.unity using Guid(9fb1de6a1b2e04343b736173dcb638c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a73736c306abe479a57a88ddf257033') in 0.007449 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

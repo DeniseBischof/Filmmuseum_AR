@@ -7,7 +7,7 @@ public class TouchController : MonoBehaviour
     private bool isMoving = false;
     private float hitDisstance = 0.0f;
 
-    public string moveToTarget = "submarine_merged_adapted";
+    public string moveToTarget = " ";
 
     public GameObject nextBodyPart;
     public GameObject sparkleParticles;

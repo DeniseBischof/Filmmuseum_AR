@@ -9,8 +9,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -71,33 +73,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 2356}
+      Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 2392}
+      Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 2480}
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1696}
+    - Class: 114
+      Script: {instanceID: 2112}
+    - Class: 114
+      Script: {instanceID: 2414}
+    - Class: 114
+      Script: {instanceID: 2574}
+    - Class: 114
+      Script: {instanceID: 2608}
+    - Class: 114
+      Script: {instanceID: 2678}
+    - Class: 114
+      Script: {instanceID: 2728}
+    - Class: 114
+      Script: {instanceID: 2742}
+    - Class: 114
+      Script: {instanceID: 2744}
     - Class: 114
       Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 3198}
-    - Class: 114
-      Script: {instanceID: 3358}
-    - Class: 114
-      Script: {instanceID: 3392}
-    - Class: 114
-      Script: {instanceID: 3462}
-    - Class: 114
-      Script: {instanceID: 3512}
-    - Class: 114
-      Script: {instanceID: 3526}
-    - Class: 114
-      Script: {instanceID: 3528}
-    - Class: 114
-      Script: {instanceID: 3680}
-    - Class: 114
-      Script: {instanceID: 3952}
-    - Class: 114
-      Script: {instanceID: 4042}
+      Script: {instanceID: 3256}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -156,27 +158,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1514}
     - Class: 114
-      Script: {instanceID: 2356}
+      Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 2480}
+      Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 2552}
+      Script: {instanceID: 1696}
     - Class: 114
-      Script: {instanceID: 2896}
+      Script: {instanceID: 1768}
     - Class: 114
-      Script: {instanceID: 3198}
+      Script: {instanceID: 2112}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 2414}
     - Class: 114
-      Script: {instanceID: 3392}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 3512}
+      Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 3526}
+      Script: {instanceID: 2728}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 2742}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -210,6 +212,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
   - hash:
       serializedVersion: 2
       Hash: 797133e01a8901bd71124c9213f47ded
@@ -1056,12 +1064,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: EpicToonFX
     className: ETFXTarget
-  - hash:
-      serializedVersion: 2
-      Hash: 748dd2a2a28da4e618912da5ac45684b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: StandaloneInputModule
   - hash:
       serializedVersion: 2
       Hash: f7858108331b563fb41b80b729297acd

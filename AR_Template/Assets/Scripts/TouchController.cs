@@ -75,6 +75,6 @@ public class TouchController : MonoBehaviour
 
     public void DestroyThisObject()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
     }
 }

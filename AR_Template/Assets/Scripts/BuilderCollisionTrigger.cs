@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class BuilderCollisionTrigger : MonoBehaviour
 {
-    private bool isMoving = false;
-    private float hitDisstance = 0.0f;
 
     public string moveToTarget = " ";
 

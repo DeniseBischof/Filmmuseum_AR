@@ -25,4 +25,14 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene(nextScene);
     }
 
+    public void reloadScene()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
+    }
+
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
 }

@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - BuilderCollisionTrigger
     - ChangeScene
     - CountObjects
+    - WheelsTrigger
     LeanTouch.dll:
     - Lean.Touch.LeanDragTranslate
     - Lean.Touch.LeanTouch
@@ -81,27 +82,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1526}
     - Class: 114
-      Script: {instanceID: 1622}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 1712}
+      Script: {instanceID: 1706}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2616}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 2798}
+      Script: {instanceID: 2792}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 3324}
+      Script: {instanceID: 3318}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -168,31 +169,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1526}
     - Class: 114
-      Script: {instanceID: 1622}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 1712}
+      Script: {instanceID: 1706}
     - Class: 114
-      Script: {instanceID: 2376}
+      Script: {instanceID: 2370}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2616}
     - Class: 114
-      Script: {instanceID: 2658}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 2732}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 2782}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 2796}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3242}
+      Script: {instanceID: 3236}
     - Class: 114
-      Script: {instanceID: 3324}
+      Script: {instanceID: 3318}
     - Class: 114
-      Script: {instanceID: 3492}
+      Script: {instanceID: 3486}
     - Class: 114
-      Script: {instanceID: 5242}
+      Script: {instanceID: 4778}
+    - Class: 114
+      Script: {instanceID: 5238}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2404,6 +2407,12 @@ ScriptsOnlyBuild:
     assemblyName: LeanCommon.dll
     namespaceName: Lean.Common
     className: LeanDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 8e4216dd3e0e2f441f17118f54baed5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WheelsTrigger
   - hash:
       serializedVersion: 2
       Hash: 096a50f6a3d89528ac732e9bb63631c7

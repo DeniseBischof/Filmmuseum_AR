@@ -4,9 +4,9 @@
     "com.ptc.vuforia.engine": {
       "tarball": {
         "hash": "4681e13faf59",
-        "mtime": 1651659478000,
+        "mtime": 1653945131996,
         "size": 234825116,
-        "localPath": "C:\\Users\\denis\\Documents\\GitHub\\Filmmuseum_AR\\AR_Template\\Packages\\com.ptc.vuforia.engine-10.7.2.tgz"
+        "localPath": "C:\\Users\\denis\\Desktop\\Filmmuseum_AR\\AR_Template\\Packages\\com.ptc.vuforia.engine-10.7.2.tgz"
       }
     }
   }
